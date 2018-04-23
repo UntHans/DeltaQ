@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-color: #ffffff; }
+
+h1 {
+  font-family: "Open Sans", sans-serif; }
+
+.slogan {
+  font-family: "Open Sans", sans-serif;
+  color: #999999;
+  font-size: 2em;
+  text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+  text-align: center;
+  transition: all 1s ease-out;
+  overflow: hidden; }
+
+.sloganfade {
+  transition: all 1s ease-out;
+  color: rgba(100, 100, 100, 0);
+  text-shadow: none; }
+
+.container {
+  margin: auto;
+  width: 100%; }
+
+.section-container-dark {
+  background-image: url(src="./img/plant1"); }
+
+.fade-out-dark {
+  opacity: 0;
+  transition: all 0.5s ease-out; }
+
+.about {
+  background-color: #ffffff;
+  color: #999999;
+  padding: 2% 5% 5%;
+  opacity: 1;
+  transition: all 1s ease-in; }
+
+.fade-in-dark {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 3s ease-out; }
+
+nav {
+  width: 100%;
+  padding: 0 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  min-height: 130px;
+  position: fixed;
+  background-color: #ffffff; }
+  nav ul {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      list-style: none; }
+
+nav.navPin {
+  max-height: 5px; }
+
+ul.topnav a.topnav-right {
+  float: right;
+  padding: 20px;
+  padding-right: 3%;
+  margin: auto;
+  margin-top: 25px;
+  display: block;
+  min-height: 40px;
+  text-align: center; }
+
+ul.topnav li a.links {
+  font-size: 1.5em;
+  margin-top: 25px;
+  float: left;
+  display: block;
+  text-decoration: none;
+  min-height: 40px;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  color: #666; }
+  ul.topnav li a.links:hover {
+    color: #99cc33; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.row:after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+* {
+  box-sizing: border-box; }
+
+.logo {
+  padding-top: 3px;
+  margin: 2px; }
+
+.post {
+  padding: 25em 0 15em;
+  background: 100% 50%/cover no-repeat;
+  background-image: url("../img/flower2.jpg");
+  transition: all 1s ease-out; }
+
+.postgrey {
+  padding-top: 50px;
+  background-image: url("../img/bag-grey.jpg");
+  transition: all 1s ease-in; }
+
+.post1 {
+  background: 100% 100%/cover no-repeat;
+  background-image: url();
+  transition: all 1s ease-in; }
+
+.post1read {
+  padding: 5em 0;
+  background-image: url();
+  transition: all 1s ease-out; }
+
+.post2 {
+  padding: 10em 0;
+  background: 50% 50%/cover no-repeat;
+  background-image: url("../img/plant1.jpg");
+  transition: all 1s ease-out; }
+
+.post2grey {
+  background-image: url("../img/plant1-grey.jpg");
+  transition: all 1s ease-out; }
+
+.post3 {
+  padding: 5em;
+  background: 50% 50%/cover no-repeat;
+  background-image: url(); }
+
+.stick {
+  background-attachment: fixed; }
+
+.cnr-img {
+  text-align: center;
+  display: block;
+  margin: 0 5% 0 3%;
+  float: left; }
+
+button {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #999999;
+  background-color: #40e0d0;
+  padding: 10px 15px;
+  display: block;
+  text-align: center;
+  border-radius: 7px; }
+
+.submitBtn {
+  margin: auto;
+  margin-top: 10px; }
+
+.nameInpt, .emailInpt {
+  font-size: 20px;
+  width: 90%;
+  min-width: 50px;
+  padding-left: 5px;
+  border-radius: 7px;
+  margin: 20px; }
+
+.enquiryInput {
+  font-size: 20px;
+  height: 5em;
+  width: 95%;
+  min-width: 50px;
+  padding-left: 5px;
+  border-radius: 7px; }
+
+.fa-facebook-square {
+  color: #000000; }
+
+.fa-google-plus-square {
+  color: #c32f10; }
+
+.fa-instagram {
+  color: #000000; }
+
+/*# sourceMappingURL=app.css.map */
